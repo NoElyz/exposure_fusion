@@ -1,1 +1,1 @@
-# exposure_fusion
+# Exposure Fusion
