@@ -60,3 +60,14 @@ def imE(image):
             Eb = exp(-0.5*(b-0.5)**2/sig**2)
             E[x][y] = Er*Eg*Eb
     return E
+
+def imW(image,wC=1,wS=1,wE=1):
+    C = imC(image)
+    S = imS(image)
+    E = imE(image)
+    size = image.size
+    W = [[0 for y in range(size[1])] for x in range(size[0])]
+    for x in range(size[0]):
+        for y in range(size[1]):
+            W[x][y] = (C[x][y]**wC+1) * (S[x][y]**wS+1) * (E[x][y]**wE+1)
+    return W
