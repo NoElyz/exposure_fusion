@@ -38,5 +38,3 @@ for x in range(size[0]):
         image_out.putpixel((x,y),(tuple(map(round,out[x][y]))))
 image_out.show()
 image_out.save("new.png",'PNG')
-
-print (result)
