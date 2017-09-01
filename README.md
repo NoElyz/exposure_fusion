@@ -19,4 +19,4 @@ Mertens, Tom, Jan Kautz, and Frank Van Reeth. "Exposure fusion." Computer Graphi
 
 ## Speed test
 
-On a Windows10 machine(i5-2520m) with cygwin, processes 3 1280\*800 pics costs about 1 minute.
+On a Windows10 machine(i5-2520m) with cygwin, processes 3 1280\*800 pics takes about 1 minute.
